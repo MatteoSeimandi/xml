@@ -1,0 +1,8 @@
+<!ELEMENT raccolta (film*)>
+<!ELEMENT film (nome, genere*)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+
+
+<!ATTLIST film durata CDATA #REQUIRED>
+<!ATTLIST film anno CDATA #REQUIRED>
